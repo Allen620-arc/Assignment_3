@@ -16,6 +16,6 @@ test_suite = [
 
 for test in test_suite:
     inputs = test["inputs"]
-    result = a3q1_provided.copy2(inputs)
+    result = a3q1_provided.copy1(inputs)
     if result != test["outputs"]:
         print("Testing fault: selection_sort() returned", result, "on inputs", inputs, "(",test["reason"],")")
