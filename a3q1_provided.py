@@ -98,7 +98,7 @@ def selection_sort(unsorted):
     result = list()
 
     acopy = list()
-    copy4(unsorted, acopy)
+    copy1(unsorted, acopy)
     
     while len(acopy) > 0:
         out = min(acopy)
